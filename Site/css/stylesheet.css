@@ -369,6 +369,37 @@ ul {
 }
 
 
+.marquee-parent {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 17px;
+}
+.marquee-child {
+  display: block;
+  width: 147px;
+  color: red;
+  /* width of your text div */
+  height: 80px;
+  /* height of your text div */
+  position: relative;
+  animation: marquee 25s linear infinite; /* change 5s value to your desired speed */
+  
+}
+.marquee-child:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -147px /* same as your text width */
+  }
+
+
+
 
 
 

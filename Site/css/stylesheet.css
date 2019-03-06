@@ -373,11 +373,11 @@ ul {
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: 17px;
+  height: 19px;
 }
 .marquee-child {
   display: block;
-  width: 147px;
+  width: 300px;
   color: red;
   /* width of your text div */
   height: 80px;

@@ -236,7 +236,7 @@
 
 .content-Proj{
 	font-family: segoe ui, arial, times new roman;
-	font-size: 130%;
+	font-size: 150%;
 	background-color: #008fb3;
 	border: 5px;;
 	/*border-style: ridge;*/
@@ -257,7 +257,7 @@
 	font-family: segoe ui, arial, times new roman;
 	font-size:120%;
 	background-color: transparent;
-	text-align: center;
+	text-align: left;
 	vertical-align: bottom;
 	/*border: 2px solid green;*/
 	margin-top: 50px;
